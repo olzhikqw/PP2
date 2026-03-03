@@ -1,0 +1,5 @@
+n=int(input())
+numbers=map(int, input().split())
+even=filter(lambda x: x%2==0, numbers)
+c=len(list(even))
+print(c)

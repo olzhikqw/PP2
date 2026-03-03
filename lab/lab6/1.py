@@ -1,0 +1,5 @@
+n=int(input())
+numbers=map(int, input().split())
+squares=map(lambda x: x**2, numbers)
+result=sum(squares)
+print(result)
