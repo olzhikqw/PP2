@@ -8,9 +8,9 @@ while r:
     for i in pygame.event.get():
         if i.type==pygame.QUIT:
             r=False
-    keys=pygame.key.get_pressed()
-    move(keys)
+        elif i.type==pygame.KEYDOWN:
+            move(i.key)
     draw(screen)
     pygame.display.flip()
-    clock.tick(60)
+    clock.tick(30)
 pygame.quit()
