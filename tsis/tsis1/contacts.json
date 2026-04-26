@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Alice Smith",
+    "email": "alice@gmail.com",
+    "birthday": "2001-05-10",
+    "group": "Friend",
+    "phones": [
+      {
+        "phone": "123456789",
+        "type": "mobile"
+      }
+    ]
+  },
+  {
+    "name": "Charlie White",
+    "email": "charlie@gmail.com",
+    "birthday": "2002-03-15",
+    "group": "Family",
+    "phones": [
+      {
+        "phone": "555555555",
+        "type": "home"
+      }
+    ]
+  }
+]
